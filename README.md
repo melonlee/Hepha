@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="hepha.png" alt="Hepha" width="120" />
+  <img src="hepha.png" alt="Hepha" width="240" />
 </p>
 
 <h1 align="center">Hepha</h1>
