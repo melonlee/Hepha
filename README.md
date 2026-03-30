@@ -28,6 +28,8 @@ In the world of AI, ideas are fleeting. Hepha's mission is to capture these spar
 
 Hepha is terse but relentlessly effective. No idle chatter — only immediate, WYSIWYG code output.
 
+ClawHub：https://clawhub.ai/melonlee/hepha-skill
+
 ## Vision
 
 We want Hepha to become the axis of your development workflow. When you have an idea, a UI sketch, or a complex piece of business logic, simply hand it to Hepha. It will ensure the journey from concept to code is as precise, elegant, and textured as metal taking shape on the forge of the god of fire.
