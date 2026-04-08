@@ -31,11 +31,32 @@
 
 ## ⭐ Why Hepha?
 
-If you've ever spent hours specifying a feature, watching an AI agent go off the rails, and then spending more time fixing the chaos than writing the code — Hepha is for you.
+Tackles two core problems with AI coding:
 
-Hepha forces a **disciplined loop**: PLAN → EXECUTE → CHECK → REVIEW → COMMIT. Every task is validated before touching the codebase. Every commit is minimal and safe.
+**1. AI goes rogue on large tasks** — The bigger the requirement, the more unpredictable the output, often breaking things that worked fine
 
-> **"Less talk, show me code."** — Hepha's philosophy
+**2. Humans get lazy** — Relying on AI to write and fix everything erodes your own skills over time
+
+Hepha fixes #1 with **structured loop discipline**, and #2 with a **reflection mechanism**.
+
+---
+
+### Structured Loop: PLAN → EXECUTE → CHECK → REVIEW → COMMIT
+
+- One minimal task per loop
+- Must pass validation before commit
+- Auto-corrects when going off track
+
+### Reflection Mechanism: Keep Your Edge
+
+Every loop requires documented evidence:
+- Why did we approach it this way?
+- What did we research?
+- What decisions were made? What was rejected?
+
+These logs (`.hepha/decision-log.md`) are your assets. As AI gets smarter, so do you — Hepha ensures you're learning and growing, not just riding along.
+
+> **"Less talk, show me code. Leave a trail."** — Hepha's philosophy
 
 ### What you get
 
@@ -44,6 +65,7 @@ Hepha forces a **disciplined loop**: PLAN → EXECUTE → CHECK → REVIEW → C
 - 📊 **Visible progress** — Real-time task graph and progress bar
 - 🔍 **Evidence-driven** — Every commit requires checks + browser review
 - 🔄 **Self-correcting** — Auto-replans when blocked, asks only when truly necessary
+- ✍️ **Sharp thinking** — Forces you to document decisions and stay independent
 
 ---
 
@@ -54,6 +76,7 @@ Hepha forces a **disciplined loop**: PLAN → EXECUTE → CHECK → REVIEW → C
 | **Auto-Decomposition** | Breaks large requirements into validated task graphs with dependency tracking |
 | **Schema Validation** | Forces complete task definitions with required fields (id, title, state, depends_on, acceptance, risk, files_hint) |
 | **Research Decision Matrix** | Explicit rules: research only when truly needed (new lib, arch change, >2 options), skip for CRUD/bugfix/style |
+| **Decision Log** | Forces documentation of research, trade-offs, and reasoning — your knowledge grows alongside AI |
 | **Progress Visualization** | Live progress bars, status tables, and task dependency graphs in Markdown |
 | **Two-layer Control** | `Skill` handles strategy; `Rule` enforces hard constraints and stop conditions |
 | **Deterministic Stop Policy** | Stops on repeated failures or no executable tasks; reports blockers clearly |
